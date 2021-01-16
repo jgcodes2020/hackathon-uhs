@@ -1,22 +1,24 @@
 body {
-  background-color: black;
   color: white;
   font-size: 18pt;
 }
-
-header {
-  padding: initial 3px 69rem;
-  width: 100%;
-  font-family: Poppins, Arial, Helvetica, sans-serif;
-}
-header > h1 {
-  font-size: 7rem;
-}
-header > h1 img {
-  height: 3.5em;
-  display: block;
-}
-
-nav > button {
+#logo-box {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: x-large;
+}
+#logo-box h1 {
+  font-size: 3em;
+}
+
+.navbar {
+  font-size: 3rem;
+}
+.nav-item {
+  transition: ease-in-out 125ms;
+}
+.nav-item:hover {
+  background-color: #AAA;
+}
+.nav-item:active {
+  background-color: #999;
 }
