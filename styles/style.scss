@@ -1,0 +1,51 @@
+$perspective-dist: 8px;
+
+@function perspective($z-dist) {
+  @return ($perspective-dist - $z-dist) / $perspective-dist;
+}
+
+body {
+  color: white;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+img {
+  max-width: 100%;
+}
+section {
+  text-align: center;
+}
+
+.parallax {
+}
+
+#logo-box {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+#logo-box img {
+  height: 3em;
+}
+
+.nav-item {
+  transition: ease-in-out 125ms;
+}
+.nav-item:hover {
+  background-color: #AAA;
+}
+.nav-item:active {
+  background-color: #999;
+}
+
+section {
+  width: 89%;
+}
+section h1 {
+  font-size: 1.6em;
+  font-weight: bold;
+  text-align: center;
+}
+#vscode-mac {
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+}
