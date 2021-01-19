@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/bootstrap-scss/bootstrap.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
@@ -22,8 +21,8 @@
   </head>
   <body class="bg-dark">
     <header>
-      <div class="jumbotron bg-dark" id="logo-box">
-        <h1>Hackathon by <img src="assets/uhs-comp-sci-2.png" id="banner-logo"></h1>
+      <div class="jumbotron bg-dark text-left text-md-center" id="logo-box">
+        <h1><img src="assets/uhs-comp-sci-2.png" id="banner-logo" class="d-block d-md-inline"> Game Jam</h1>
       </div>
       <nav class="navbar navbar-expand-md navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible">
@@ -39,16 +38,13 @@
         </div>
       </nav>
     </header>
-    <br>
+    <section class="mx-auto pt-4 pb-2">
+      <h1>One week. One game.</h1>
+      <img class="d-block mx-auto fit-page"
+      src="https://d3bem67vv0tpdp.cloudfront.net/wp-content/uploads/2014/09/HackTheNorth_Day1-579_750px_.jpg">
+      <button class="mx-auto">Learn more</button>
+    </section>
     <section class="mx-auto">
-      <h1>Two days of coding you'll never forget...</h1>
-      <div class="parallax mt-1" 
-      style='
-      background-image: url("assets/vscode-on-a-mac.png");
-      '></div>
-      <p class="mt-2">
-        at a one-time event hosted by the school.
-      </p>
       
     </section>
   </body>
