@@ -1,3 +1,6 @@
+---
+---
+
 body {
   color: white;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -45,8 +48,4 @@ section h1 {
   width: 100%;
   object-fit: cover;
   object-position: 0 0;
-}
-
-@include media-breakpoint-up(md) {
-
 }
