@@ -1,0 +1,27 @@
+---
+---
+:root {
+  --offset: 0px;
+}
+
+#discord-list {
+  list-style-type: none;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#discord-list li {
+  padding: 10px;
+  margin: 3px;
+  background-color: tomato;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#discord-list li:hover {
+  background-color: darken($color: tomato, $amount: 5)
+}

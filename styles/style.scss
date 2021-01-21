@@ -21,8 +21,16 @@ section {
 .widget {
   box-sizing: content-box;
 }
-.widget-cal {
+.widget-cal, .widget-gform {
   min-height: 400px;
+}
+
+#logo-box {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+#logo-box img {
+  height: 3em;
 }
 
 .nav-item {
@@ -47,11 +55,6 @@ section h1 {
   font-weight: bold;
   text-align: center;
 }
-#vscode-mac {
-  width: 100%;
-  object-fit: cover;
-  object-position: 0 0;
-}
 
 @media (min-width: 768px) {
   .fit-page {
@@ -60,5 +63,8 @@ section h1 {
   .widget-cal {
     width: 768px;
     height: 576px;
+  }
+  .widget-gform {
+    width: 768px;
   }
 }
