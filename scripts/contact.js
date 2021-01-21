@@ -41,12 +41,13 @@ $(() => {
   root.style.setProperty("--offset", `${offset}px`);
   console.log(root.style.getPropertyValue("--offset"));
 
-  $(window).on("resize", event => {
+  $(window).on("resize orientationchange", event => {
     const condition = $(document).height() <= $(window).height();
     const value = condition? 'calc(100vh - var(--offset))' : '';
     $sectLastChild.css({
       "height": value
     });
-  }).trigger("resize")
+  });
+  $(window).trigger("resize");
 });
 
