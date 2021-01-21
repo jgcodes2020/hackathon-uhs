@@ -1,0 +1,27 @@
+---
+---
+
+
+
+table {
+  width: 95%;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 1px solid white;
+}
+thead > tr {
+  border-bottom: 3px solid white;
+}
+th, td {
+  border: 1px solid white;
+  height: 2em;
+  padding: 4px;
+}
+thead th, thead td {
+  background-color: #11A;
+}
+tbody th {
+  background-color: #66F;
+}
